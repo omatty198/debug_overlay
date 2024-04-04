@@ -29,7 +29,10 @@ dependencies:
   json_view: ^0.4.2
   meta: ^1.3.0
   package_info_plus: '>=3.0.0 <6.0.0'
-  shake: ^2.2.0
+  shake:
+    git:
+      url: https://github.com/dieringe/shake.git
+      ref: dieringe
 
 dev_dependencies:
   supernova_flutter:
